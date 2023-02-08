@@ -1,0 +1,15 @@
+{
+  "name": "iflytek-components",
+  "version": "1.0.0",
+  "description": "讯飞组件库",
+  "main": "index.js",
+  "author": "青",
+  "license": "MIT",
+  "devDependencies": {
+    "vuepress": "^1.9.7"
+  },
+  "scripts": {
+    "dev": "vuepress dev docs",
+    "build": "vuepress build docs"
+  }
+}
