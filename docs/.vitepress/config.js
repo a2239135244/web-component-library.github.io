@@ -9,7 +9,8 @@
 export default {
   title: '前端组件库',
   description: '立即开始',
-  base: '/web-component-library/',
+  // base: '/web-component-library/',
+  // base: './web-component-library/',
   themeConfig: {
     // search: true,
     // logo: '/images/iflyui-logo.png',
@@ -22,17 +23,17 @@ export default {
         {
           text:'代码片段',
           items: [
-            { text: "高德地图引用", link: "/views/map/" },
-            { text: "在线文件预览", link: "/views/fileView/" }
+            { text: "高德地图引用", link: "/views/map/index.md" },
+            { text: "在线文件预览", link: "/views/fileView/index.md" }
           ]
         },
         {
           text: '组件部分',
           items: [
-            { text: "大文件上传", link: "/views/bigFileUpload/" },
-            { text: "富文本", link: "/views/editor/" },
-            { text: "文件上传", link: "/views/fileUpload/" },
-            { text: "思维导图", link: "/views/mindElixir/" },
+            { text: "大文件上传", link: "/views/bigFileUpload/index.md" },
+            { text: "富文本", link: "/views/editor/index.md" },
+            { text: "文件上传", link: "/views/fileUpload/index.md" },
+            { text: "思维导图", link: "/views/mindElixir/index.md" },
           ]
         }
       ]
