@@ -1,15 +1,16 @@
 {
-  "name": "iflytek-components",
+  "name": "abc-vite-test",
   "version": "1.0.0",
-  "description": "讯飞组件库",
   "main": "index.js",
-  "author": "青",
   "license": "MIT",
-  "devDependencies": {
-    "vuepress": "^1.9.7"
-  },
   "scripts": {
-    "dev": "vuepress dev docs",
-    "build": "vuepress build docs"
+    "dev": "vitepress dev docs",
+    "docs:dev": "vitepress dev docs",
+    "docs:build": "vitepress build docs",
+    "docs:preview": "vitepress preview docs"
+  },
+  "dependencies": {
+    "vitepress": "^1.0.0-alpha.45",
+    "vue": "^3.2.47"
   }
 }
