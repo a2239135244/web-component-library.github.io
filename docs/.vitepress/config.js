@@ -9,7 +9,7 @@
 export default {
   title: '前端组件库',
   description: '立即开始',
-  // base: '/web-component-library/',
+  base: '/web-component-library/',
   // base: './web-component-library/',
   themeConfig: {
     // search: true,
