@@ -9,9 +9,10 @@
 export default {
   title: '前端组件库',
   description: '立即开始',
+  base: '/web-component-library/',
   themeConfig: {
     // search: true,
-    logo: '/images/iflyui-logo.png',
+    // logo: '/images/iflyui-logo.png',
     // searchMaxSuggestions: 10,
     // nav: [
     //   { text: '思维导图', link: '/guide/', target:'_self', rel:'' },
