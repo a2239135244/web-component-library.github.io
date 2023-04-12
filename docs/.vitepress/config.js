@@ -9,8 +9,7 @@
 export default {
   title: '前端组件库',
   description: '立即开始',
-  base: '/web-component-library/',
-  // base: './web-component-library/',
+  base: '/web-component-library.github.io/',
   themeConfig: {
     // search: true,
     // logo: '/images/iflyui-logo.png',
